@@ -7,22 +7,6 @@
     <title>Page Not Found | ReClaim</title>
     <link rel="stylesheet" href="/css/app.css">
     <style>
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-
         .glass-card {
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(20px);
@@ -67,13 +51,6 @@
                     <div
                         class="absolute inset-0 flex items-center justify-center opacity-5 select-none font-outfit text-[15rem] font-extrabold -translate-y-4">
                         404
-                    </div>
-                    <div class="animate-float relative z-10">
-                        <svg class="h-40 w-40 text-primary-500 transition-all duration-500 hover:scale-110" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="0.75">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                        </svg>
                     </div>
                 </div>
 
