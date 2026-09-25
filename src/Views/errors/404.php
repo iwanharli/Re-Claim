@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found | ReClaim</title>
-    <link rel="stylesheet" href="/css/app.css">
-</head>
+<?php
+    $pageTitle = '404 Page Not Found';
+    $pageDescription = 'Re:Claim is a centralized lost and found tracking system for West Visayas State University - Main Campus.';
+    $canonicalUrl = APP_URL;
+    $ogImage = APP_URL . '/assets/Re_Claim Logo Icon.svg';
+    $extraHead = '<link rel="stylesheet" href="/css/app.css">';
+    require __DIR__ . '/../partials/head.php';
+?>
 
 <body class="min-h-screen flex flex-col antialiased">
     <?php require __DIR__ . "/../mainpages/header.php" ?>
