@@ -61,13 +61,6 @@
         <div class="max-w-4xl w-full relative z-10 flex flex-col items-center">
 
             <div class="glass-card rounded-[3rem] p-8 md:p-16 w-full text-center relative overflow-hidden">
-                <!-- Top Badge -->
-                <div
-                    class="inline-flex items-center px-4 py-1.5 rounded-full bg-primary-50 border border-primary-100 mb-8">
-                    <span class="flex h-2 w-2 rounded-full bg-primary-500 mr-2 animate-ping"></span>
-                    <span class="text-xs font-semibold text-primary-600 uppercase tracking-wider">Oops! We have lost
-                        this page</span>
-                </div>
 
                 <!-- 404 Visual -->
                 <div class="relative mb-8 flex justify-center">
